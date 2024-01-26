@@ -1,0 +1,33 @@
+.health{
+    width: 230px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.health-chart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.back-forward-btn{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+.back-forward-btn p{
+    width: 100px;
+    padding: 3px;
+    background-color: rgb(212, 212, 212);
+    text-align: center;
+    border-radius: 10px;
+    font-size: small;
+}

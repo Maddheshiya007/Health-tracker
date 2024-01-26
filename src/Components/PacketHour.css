@@ -1,0 +1,65 @@
+.packet{
+    background-color: black;
+    color: white;
+}
+
+.bar{
+    margin:20px 0px;
+}
+
+.red{
+    margin: 15px;
+    height: 8px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: red;
+}
+.yellow{
+
+    height: 8px;
+    width: 160px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+.blue{
+
+    height: 8px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+.bar-data{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-bar-data{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    height: 8px;
+    width: 8px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.cx{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.bc{
+    background-color: blue;
+}
+
+.yc{
+    background-color: yellow;
+}

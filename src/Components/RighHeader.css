@@ -1,0 +1,25 @@
+
+.right-header{
+    display: flex;
+}
+.location-select{
+    width: 200px;
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+
+.filter{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    display: flex;
+    gap: 5px;
+    padding: 2px 5px;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+}

@@ -1,0 +1,11 @@
+
+.events{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    width: 600px;
+}
+.events-header{
+    display: flex;
+    justify-content: space-between;
+}

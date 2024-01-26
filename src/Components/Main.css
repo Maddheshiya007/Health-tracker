@@ -1,0 +1,23 @@
+.main-div{
+    margin: 25px;
+    width: 1250px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    justify-content:space-between;
+    margin-top: 10px;
+}
+
+.event-health{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.right-div{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}

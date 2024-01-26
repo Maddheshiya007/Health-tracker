@@ -1,0 +1,22 @@
+.psi-chart{
+    margin-top: 10px;
+    width: 900px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding: 20px;
+}
+.psi-header{
+    display: flex;
+    justify-content: space-between;
+
+    gap: 10px;
+}
+
+.psi-chart-img{
+    width: 100%;
+}
+
+.psi-chart-img img {
+    object-fit: cover;
+}

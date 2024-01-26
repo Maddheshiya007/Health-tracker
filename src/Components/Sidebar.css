@@ -1,0 +1,41 @@
+.sidebar {
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 200px;
+    border-bottom-right-radius: 15px;
+}
+
+.sidebtn {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+    /* padding: 2px; */
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.active {
+    color: white;
+    background: black;
+}
+
+.downloadbtn {
+    background-color: rgb(179, 108, 2);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    text-align: center;
+}
