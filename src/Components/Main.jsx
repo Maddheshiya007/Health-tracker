@@ -12,20 +12,20 @@ import Pressure from './Pressure'
 const Main = () => {
   return (
     <div className='main'>
-      <Navbar/>
+      <Navbar />
       <div className='main-div'>
         <div className='left-div'>
-        <RightHeader/>
-        <Psichart/>
-        <div className='event-health'>
-            <Events/>
-            <Health/>
-        </div>
+          <RightHeader />
+          <Psichart />
+          <div className='event-health'>
+            <Events />
+            <Health />
+          </div>
         </div>
         <div className="right-div">
-            <PacketHour/>
-            <Algorith/>
-            <Pressure/>
+          <PacketHour />
+          <Algorith />
+          <Pressure />
         </div>
       </div>
     </div>

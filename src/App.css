@@ -1,4 +1,6 @@
 .app{
     display: flex;
     background: rgb(218, 217, 219);
+    /* width: 100%; */
+    /* overflow-y: hidden; */
 }

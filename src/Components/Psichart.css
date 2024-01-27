@@ -1,6 +1,6 @@
 .psi-chart{
     margin-top: 10px;
-    width: 900px;
+    width: 100%;
     background-color: white;
     border-radius: 10px;
     padding-top: 10px;
@@ -19,4 +19,13 @@
 
 .psi-chart-img img {
     object-fit: cover;
+}
+
+@media (max-width:1000px) {
+    .psi-chart{
+        width: 70%;
+    }
+    .psi-chart-img img{
+        width: 70%;
+    }
 }

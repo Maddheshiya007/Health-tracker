@@ -1,6 +1,7 @@
 
 .right-header{
     display: flex;
+    flex-wrap: wrap;
 }
 .location-select{
     width: 200px;
